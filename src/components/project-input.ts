@@ -1,7 +1,7 @@
-import { Validatable, validate } from '../util/validation.js';
-import { projectState } from '../state/project-state.js';
-import { autobind } from '../decorators/autobind.js';
-import { Component } from './base-component.js';
+import { Validatable, validate } from '../util/validation';
+import { projectState } from '../state/project-state';
+import { autobind } from '../decorators/autobind';
+import { Component } from './base-component';
 
 // ProjectInput Class
 // goal has to get access to form and #app
